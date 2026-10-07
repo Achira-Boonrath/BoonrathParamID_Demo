@@ -1,4 +1,4 @@
-# Sub-Tether Model Parameter Identification for Net-Captured Debris Towing
+# Simplified Model Parameter Identification for Net-Captured Debris Towing
 
 This repository presents video results concerning the **parameter identification framework** that replaces high-fidelity, computationally intensive net-debris models with a simplified **4-Sub-Tether (ST) system**, enabling computationally efficient long-duration orbital towing simulations. The framework is described in detail in:
 

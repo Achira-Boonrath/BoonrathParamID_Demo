@@ -1,6 +1,6 @@
 # Simplified Model Parameter Identification for Net-Captured Debris Towing
 
-This repository presents video results concerning the **parameter identification framework** that replaces high-fidelity, computationally intensive net-debris models with a simplified **4-Sub-Tether (ST) system**, enabling computationally efficient long-duration orbital towing simulations. The framework is described in detail in:
+This repository presents video results concerning the **parameter identification framework** that replaces a computationally intensive net-wrapped space debris model with a simplified **4-Sub-Tether (ST) system**, enabling  efficient long-duration towing simulations to be performed. The framework is described in detail in:
 
 **A. Boonrath, T. Singh, and E. M. Botta, “Identification of parameters for tethered satellite system to emulate net-captured debris towing,” Acta Astronautica, vol. 225, pp. 676–688, 2024. doi: https://doi.org/10.1016/j.actaastro.2024.09.022.**
 
@@ -8,10 +8,9 @@ This repository presents video results concerning the **parameter identification
 
 ## Computational Challenge & Solution
 
-Simulating post-capture debris towing with a full-net model requires modeling complex, multi-body dynamics:
-- **Full-Net System Model**: Involves $1000+$ degrees of freedom, requiring **$\sim 4.5$ hours per towing simulation** on a typical workstation. Given that long-duration debris deorbiting studies may require evaluating dozens or hundreds of removal simulations, this model is not practical for such purposes.
-- **The Solution**: Identify equivalent physical properties for a 4-sub-tether model so it replicates the high-fidelity dynamics with good accuracy while executing in **$< 4$ minutes ($>60\times$ speedup)**. For this task, I formulated optimization problems to minimize 
-differences between the models’ dynamics and applied global optimization algorithms (e.g., Particle Swarm Optimization) to solve the minimization problems. 
+Simulations of space debris towing in disposal missions using a full-net model produce high-fidelity and  accurate dynamics. However, these simulations necessitate modeling highly complex multi-body interactions:
+- **High Computational Cost**: The full-net model comprises over 1000 degrees of freedom and requires **approximately 4.5 hours per towing simulation** on a typical workstation. Since long-duration debris deorbiting studies may necessitate dozens or hundreds of removal simulations, this model is impractical for such applications.
+- **Proposed Solution**: Identify equivalent physical properties for a 4-sub-tether model to replicate the high-fidelity dynamics with comparable accuracy, reducing execution time to **less than 4 minutes**, achieving over 60 times speedup. To accomplish this, optimization problems are formulated to minimize the differences between the models’ dynamics, and global optimization algorithms, such as Particle Swarm Optimization, are applied to solve them.
 
 ---
 

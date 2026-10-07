@@ -16,6 +16,6 @@ Simulating post-capture debris towing with a full-net model requires modeling co
 
 | High-Fidelity Full-Net Towing | Parameter-Identified 4-ST Towing |
 | :---: | :---: |
-| [![High-Fidelity Full-Net System](../assets/thumbnails/high-fidelity_full-net_system_thumb.jpg)](<../src/High-Fidelity Full-Net System.mp4>) | [![ST System With Parameters](../assets/thumbnails/st_system_with_parameters_obtained_from_the_parameter_identification_framework_thumb.jpg)](<../src/ST System With Parameters Obtained From the Parameter Identification Framework.mp4>) |
-| *Execution time: $\sim 4.5\text{ hours}$* | *Execution time: $< 4\text{ minutes}$ ($>60\times$ speedup)* |
+| [![High-Fidelity Full-Net System](https://github.com/user-attachments/assets/c59e3aac-428b-49db-ba78-85eeb74fb315)] | [![ST System With Parameters](https://github.com/user-attachments/assets/67403d04-aab4-4409-910a-67734386abf0)]|
+| *Execution time:* $\sim 4.5\text{ hours}$ | *Execution time:* $< 4\text{ minutes}$ ($>60\times$ speedup) |
 
